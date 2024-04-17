@@ -10,41 +10,48 @@
     <!-- CABEÇALHO -->
     <header>
       <img
+        class="logo-music"
         src="./src/assets/icons/open-music-light-mode.svg"
         alt="Logo Open Music escrito"
       />
-      <img src="./src/assets/icons/moon-icon.svg" alt="Modo claro" />
+      <div class="mini-container">
+        <img
+          class="icon-lua"
+          src="./src/assets/icons/moon-icon.svg"
+          alt="Modo claro"
+        />
+      </div>
     </header>
 
     <!-- CONTEÚDO PRINCIPAL -->
     <main>
       <!-- SEÇÃO DE FILTRO POR GENERO -->
-      <section>
-        <h2>Gênero Musical</h2>
-        <ul>
-          <li>Todos</li>
-          <li>Pop</li>
-          <li>MPB</li>
-          <li>Forró</li>
-          <li>Samba</li>
-          <li>Baião</li>
-          <li>Rap</li>
-          <li>Hip-Hop</li>
+      <section class="genre-filter">
+        <h2 class="title-genre">Gênero Musical</h2>
+        <ul class="list-genre">
+          <li class="list-items-black">Todos</li>
+          <li class="list-items">Pop</li>
+          <li class="list-items">MPB</li>
+          <li class="list-items">Forró</li>
+          <li class="list-items">Samba</li>
+          <li class="list-items">Baião</li>
+          <li class="list-items">Rap</li>
+          <li class="list-items">Hip-Hop</li>
         </ul>
       </section>
 
       <!-- SEÇÃO DE FILTRO POR PREÇO -->
-      <section>
+      <section class="filter-price">
         <h2>Definir Preço</h2>
         <h2>Até <span class="cor-roxa">R$100</span></h2>
-        <input type="range" min="0" max="100" />
+        <input class="barra-price" type="range" min="0" max="100" />
       </section>
 
       <!-- SEÇÃO DE ALBUNS -->
-      <section>
+      <section class="albuns-section">
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
         <h1>Albuns Encontrados</h1>
-        <ul>
+        <ul class="albuns-style">
           <li>
             <img src="./src/assets/imgs/cover-1.jpg" alt="" srcset="" />
             <h3>Acabou o Chorare</h3>
