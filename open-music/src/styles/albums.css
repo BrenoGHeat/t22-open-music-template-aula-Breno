@@ -7,13 +7,59 @@
 }
 
 .albuns-style{
+    width: 1024px;
+    height:930px;
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap:30px 40px;
+    border-radius: 4px 4px 0px 0px;
+   
 }
 
 .albuns-section h1{
+    width: 235px;
+    height: 29px;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 24px;
     color: var(--color-gray-2);
+}
+
+
+.title-style-album{
+    width: 308px;
+    height: 37px;
+    gap:10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--color-gray-2);
+}
+
+.paragraph-style-album{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.button-comprar{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    width: 87px;
+    height: 40px;
+    border:1px;
+    border-radius: 4px;
+    gap:10px;
+    background-color: var(--color-brand-1);
+    color: #FFFFFF;
+}
+
+.price-album{
+    width: 88px;
+    height: 23px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 19.2px;
+    color:var(--color-gray-2);
 }

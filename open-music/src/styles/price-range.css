@@ -1,5 +1,11 @@
-span.cor-roxa{
-    color:var(--color-brand-2);
+
+.filter-price{
+    width:1024px;
+    height:164px;
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    gap:19px;
 }
 
 .barra-price{
@@ -23,3 +29,36 @@ span.cor-roxa{
     border-radius: 50%;
     border: 0.5rem solid var(--color-brand-1);
 }
+
+
+.title-price-one-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.span-title-price{
+    color:var(--color-brand-2);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.title-price{
+    width: 151px;
+    height: 29px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color:var(--color-gray-2);
+}
+
+.title-price-two{
+    width : 116px;
+    height: 27px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
