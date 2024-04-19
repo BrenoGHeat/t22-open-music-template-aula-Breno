@@ -5,12 +5,11 @@ header .logo-music{
 }
 
 header{
-   /*
     position:sticky;
     top:0;
     z-index: 1;
-    */
 
+    background-color: var(--color-gray-8);
     width: 1024px;
     height:144px;
     display: flex;
