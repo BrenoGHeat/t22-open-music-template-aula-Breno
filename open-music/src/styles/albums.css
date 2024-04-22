@@ -1,3 +1,9 @@
+
+.img-style{
+    max-width:308px;
+    border-radius: 4px;
+}
+
 .albuns-section{
     width:1024px;
     height: 1032px;
@@ -8,12 +14,14 @@
 
 .albuns-style{
     width: 1024px;
-    height:930px;
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    gap:30px 40px;
+    height: 930px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 40px;
     border-radius: 4px 4px 0px 0px;
-   
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
 }
 
 .albuns-section h1{
@@ -43,6 +51,7 @@
 }
 
 .button-comprar{
+    cursor:pointer;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -51,7 +60,7 @@
     border:1px;
     border-radius: 4px;
     gap:10px;
-    background-color: var(--color-brand-1);
+    background-color: var(--color-brand-2);
     color: #FFFFFF;
 }
 
@@ -62,4 +71,20 @@
     font-weight: 600;
     font-size: 19.2px;
     color:var(--color-gray-2);
+}
+
+.button-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.albuns-style li:hover{
+    background-color: var(--color-gray-6);
+
+}
+
+.button-comprar:hover{
+    background-color: var(--color-brand-1);
 }

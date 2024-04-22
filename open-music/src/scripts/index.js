@@ -1,3 +1,7 @@
- function routine(){
-    applyInputRangeStyle()
- };
+
+import {applyInputRangeStyle} from './inputRange.js';
+
+function routine(){
+   applyInputRangeStyle();
+};
+
