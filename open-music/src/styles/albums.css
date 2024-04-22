@@ -1,20 +1,12 @@
 
-.img-style{
-    max-width:308px;
-    border-radius: 4px;
-}
-
 .albuns-section{
     width:1024px;
     height: 1032px;
-    gap:19px;
     padding: 32px 0px;
-
 }
 
 .albuns-style{
     width: 1024px;
-    height: 930px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px 40px;
@@ -26,10 +18,9 @@
 
 .albuns-section h1{
     width: 235px;
+    margin-bottom: 20px;
     height: 29px;
-    font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 24px;
     color: var(--color-gray-2);
 }
 
@@ -37,6 +28,7 @@
 .title-style-album{
     width: 308px;
     height: 37px;
+    padding: 5px 16px;
     gap:10px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -48,6 +40,13 @@
     display: flex;
     justify-content: space-between;
     gap:10px;
+}
+
+.paragraphs-album{
+    height: 27px;
+    display: flex;
+    padding: 4px 16px;
+    justify-content: space-between;
 }
 
 .button-comprar{
@@ -75,9 +74,12 @@
 
 .button-price{
     display: flex;
+    height: 72px;
+    padding: 16px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 308px;
 }
 
 .albuns-style li:hover{
@@ -87,4 +89,15 @@
 
 .button-comprar:hover{
     background-color: var(--color-brand-1);
+}
+
+.list-album-style{
+    width: 308px;
+    flex-shrink: 1;
+}
+
+
+.img-style{
+    max-width:308px;
+    border-radius: 4px;
 }
