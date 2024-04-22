@@ -1,8 +1,9 @@
 .genre-filter{
-    width: 1024px; 
+    max-width: 1024px; 
     height: 171px;
     padding: 16px 0px;
 
+    margin:0 auto;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -10,7 +11,7 @@
 }
 
 .title-genre{
-    width: 1024px;
+    max-width: 1024px;
     height:61px;
     
     padding:16px 0px;
@@ -23,7 +24,7 @@
 
 .list-genre{
     display: flex;
-    width: 1024px;
+    max-width: 1024px;
     padding: 10px 0px;
     height: 64px;
     gap: 25px;
