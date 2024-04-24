@@ -1,5 +1,5 @@
 export function applyInputRangeStyle() {
-  const inputRange = document.querySelector("#barra-price");
+  const inputRange = document.querySelector("#barra_price");
 
   inputRange.addEventListener("input", (event) => {
     const currentInputValue = event.target.value;
