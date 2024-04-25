@@ -4,13 +4,18 @@ header .logo-music{
 
 }
 
-header{
+.logo-music-dark-mode{
+    width:200px;
+    height:48px;
+}
+
+
+.header{
     position:sticky;
     top:0;
     z-index: 1;
 
     margin:0 auto;
-
     background-color: var(--color-gray-8);
     max-width: 1024px;
     height:144px;
@@ -21,7 +26,8 @@ header{
     border-bottom: 3px solid var(--color-brand-2);
 }
 
-header .mini-container{
+header .button-header{
+    cursor:pointer;
     display: flex;
     align-items: center;
     padding:15px;
