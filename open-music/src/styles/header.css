@@ -1,14 +1,3 @@
-header .logo-music{
-    width: 200px;
-    height: 48px;
-
-}
-
-.logo-music-dark-mode{
-    width:200px;
-    height:48px;
-}
-
 
 .header{
     position:sticky;
@@ -25,6 +14,22 @@ header .logo-music{
     justify-content: space-between;
     border-bottom: 3px solid var(--color-brand-2);
 }
+
+
+.header-logo{
+    width:227.9px;
+    height:48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--color-gray-2);
+}
+
+.header-span{
+    color:var(--color-brand-2);
+}
+
+
 
 header .button-header{
     cursor:pointer;
