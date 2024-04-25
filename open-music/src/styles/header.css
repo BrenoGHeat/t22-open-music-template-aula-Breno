@@ -16,7 +16,7 @@ header .logo-music{
     z-index: 1;
 
     margin:0 auto;
-    background-color: var(--color-gray-8);
+    background-color: transparent;
     max-width: 1024px;
     height:144px;
     display: flex;
@@ -41,3 +41,7 @@ header .icon-lua{
     width: 16px;
     height: 18px;
 }
+
+
+background-image: url("./src/assets/icons/moon-icon.svg"),
+                  url:("./src/assets/icons/sun-icon.svg");         

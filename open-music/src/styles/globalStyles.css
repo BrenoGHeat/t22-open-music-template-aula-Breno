@@ -19,7 +19,12 @@ body{
     background-color: var(--color-gray-8);
 }
 
-body .dark-mode{
+body dark-mode{
    
     background-color: var(--color-gray-1);
+    color: var(--color-gray-7);
+}
+
+.list-album-style .dark-mode{
+    background-color: var(--color-gray-2);
 }
