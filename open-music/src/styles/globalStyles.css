@@ -1,5 +1,5 @@
 
-:root{
+body{
     --color-brand-1: #6F00FF;
     --color-brand-2: #8629FF;
     --color-gray-1: #15171A;
@@ -13,6 +13,24 @@
     
 }
 
+body.dark-mode{
+    --color-brand-1: #6F00FF;
+    --color-brand-2: #8629FF;
+    
+    --color-gray-1:  #FDFEFF;
+    --color-gray-2: #F8F9FA;
+    --color-gray-3: #F1F3F5;
+    --color-gray-4: #DEE2E6;
+    --color-gray-5: #CED4DA;
+    --color-gray-6: #2B2F33;
+    --color-gray-7: #212529;
+    --color-gray-8: #15171A;
+
+  
+}
+
+
+
 body{
     width: 100%;
     font-family: 'Inter', sans-serif;
@@ -21,5 +39,5 @@ body{
 
 .body-dark-mode{
     background-color: var(--color-gray-1);
-    color: var(--color-gray-8);
+    
 }

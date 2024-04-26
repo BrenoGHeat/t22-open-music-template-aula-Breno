@@ -41,6 +41,7 @@
     display: flex;
     justify-content: space-between;
     gap:10px;
+   
 }
 
 .paragraphs-album{
@@ -49,6 +50,7 @@
     display: flex;
     padding: 4px 16px;
     justify-content: space-between;
+    color:var(--color-gray-2);
 }
 
 .button-comprar{
@@ -86,7 +88,6 @@
 
 .albuns-style li:hover{
     background-color: var(--color-gray-6);
-
 }
 
 .button-comprar:hover{
@@ -112,7 +113,21 @@
 
 }
 
-
 .album-title-dark-mode{
     color:var(--color-gray-6);
+}
+
+
+.price-album-dark-mode{
+    color:var(--color-gray-6);
+}
+
+.title-style-album-dark-mode{
+    color:var(--color-gray-6);
+
+}
+
+.list-album-style-dark-mode{
+    background-color: var(--color-gray-3);
+
 }

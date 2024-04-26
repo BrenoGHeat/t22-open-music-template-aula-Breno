@@ -45,6 +45,7 @@ function criarCardAlbum(album){
 
     export function renderCard (array){
         const ul = document.querySelector(".albuns-style");
+            ul.innerHTML = "";
             for(let i = 0 ; i < array.length ; i++){
                     
                    const li = criarCardAlbum(array[i])

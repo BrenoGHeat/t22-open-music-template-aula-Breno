@@ -4,6 +4,7 @@ import { butonSelect } from "./buttons.js";
 import { albumList } from "./albumsDatabase.js";
 import { renderCard } from "./createElements.js";
 import { criaEvento } from "./theme.js";
+import { filterPrice } from "./filterPrice.js";
 
 
  function routine(){
@@ -11,6 +12,7 @@ import { criaEvento } from "./theme.js";
    butonSelect();
    renderCard(albumList);
    criaEvento();
+   filterPrice( renderCard, albumList );
   
  }
 
