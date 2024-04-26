@@ -17,7 +17,7 @@
     justify-content: space-between;
 }
 
-.albuns-section h1{
+.album-title{
     width: 235px;
     margin-bottom: 20px;
     height: 29px;
@@ -105,4 +105,14 @@
     max-width:308px;
     height:290px;
     border-radius: 4px;
+}
+
+.h1-dark-mode{
+    color:var(--color-gray-6);
+
+}
+
+
+.album-title-dark-mode{
+    color:var(--color-gray-6);
 }

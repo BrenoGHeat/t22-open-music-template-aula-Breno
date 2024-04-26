@@ -48,5 +48,46 @@ header .icon-lua{
 }
 
 
-background-image: url("./src/assets/icons/moon-icon.svg"),
-                  url:("./src/assets/icons/sun-icon.svg");         
+.tema-button{
+    display: flex;
+    width: 44px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: var(--color-gray-6);
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.tema-button-dark{
+    display: flex;
+    width: 44px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: var(--color-gray-3);
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.header_theme-btn{
+    display: flex;
+    cursor:pointer;
+    width: 17px;
+    height: 18px;
+    border-radius: 5px;
+    background-image: url(../assets/icons/moon-icon.svg);
+}
+
+.header_theme-btn--sun{
+    background-color: var(--color-gray-3);
+    width: 17px;
+    height:18px;
+    background-image: url(../assets/icons/sun-icon.svg);
+}
+
+
+.header-logo-dark-mode{
+    color: var(--color-gray-8);
+}
