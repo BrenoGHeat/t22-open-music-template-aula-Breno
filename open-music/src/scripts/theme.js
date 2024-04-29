@@ -17,18 +17,8 @@ const albumStyleDarkMode = document.querySelector(".list-album-style");
 
 button.addEventListener("click", function (){
        button.classList.toggle("header_theme-btn--sun");
-      // divButton.classList.toggle("tema-button-dark");
        bodyDark.classList.toggle("dark-mode");
-       //logoDark.classList.toggle("header-logo-dark-mode");
-       //genreDark.classList.toggle("title-genre-dark-mode");
-       //buttonDark.classList.toggle("button-filter-dark-mode");
-       //titlePriceDark.classList.toggle("title-price-dark-mode");
-       //h1Dark.classList.toggle("album-title-dark-mode");
-      // priceDark.classList.toggle("price-album-dark-mode");
-       //titleAlbumDark.classList.toggle("title-style-album-dark-mode");
-       //albumStyleDarkMode.classList.toggle("list-album-style-dark-mode");
-
-             
+       
                      if(bodyDark.classList.contains("dark-mode")){
                             localStorage.setItem("@openMusic:theme", "dark" )
                      } else {
