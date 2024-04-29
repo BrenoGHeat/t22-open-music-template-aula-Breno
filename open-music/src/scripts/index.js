@@ -5,15 +5,14 @@ import { albumList } from "./albumsDatabase.js";
 import { renderCard } from "./createElements.js";
 import { criaEvento } from "./theme.js";
 import { filterPrice } from "./filterPrice.js";
+import { apiMusicas } from "./api.js";
 
-
- function routine(){
+ async function routine(){
    applyInputRangeStyle();
    butonSelect();
-   renderCard(albumList);
+   renderCard(await apiMusicas());
    criaEvento();
-   filterPrice( renderCard, albumList );
-  
+   filterPrice( renderCard, await apiMusicas());
  }
 
  routine();

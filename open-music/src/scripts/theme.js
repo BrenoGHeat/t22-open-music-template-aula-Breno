@@ -28,7 +28,6 @@ button.addEventListener("click", function (){
        //titleAlbumDark.classList.toggle("title-style-album-dark-mode");
        //albumStyleDarkMode.classList.toggle("list-album-style-dark-mode");
 
-
              
                      if(bodyDark.classList.contains("dark-mode")){
                             localStorage.setItem("@openMusic:theme", "dark" )
